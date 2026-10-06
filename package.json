@@ -1,0 +1,28 @@
+{
+  "name": "shorts-steam-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/gen-assets.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/gen-assets.mjs",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@supabase/supabase-js": "^2.117.2",
+    "lucide-react": "^1.52.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.3"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
